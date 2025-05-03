@@ -113,6 +113,7 @@ nav ul a:hover{
     background: white;
     border-radius: 50%;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .first-windows .divs .div:nth-child(1){
