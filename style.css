@@ -655,6 +655,7 @@ footer .left .icons i:hover{
     cursor: pointer;
     transition: 1s;
     background: orange;
+    transform: scale(1.2);
 }
 
 footer .divs{
