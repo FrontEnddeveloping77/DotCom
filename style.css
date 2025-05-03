@@ -5,6 +5,18 @@
     font-family:monospace;
 }
 
+select{
+    background: none;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+select option{
+    color: black;
+}
+
 .hovebn{
     width: 150px;
     height: 40px;
