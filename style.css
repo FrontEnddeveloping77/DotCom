@@ -5,6 +5,51 @@
     font-family:monospace;
 }
 
+/* a */
+
+a{
+    text-decoration: none;
+}
+
+/* back-color */
+
+.back-color{
+    width: 150px;
+    display: inline-block;
+    background: orange;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* backcolortext */
+
+.backcolortext{
+    width: 180px;
+    height: 30px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+
+/* hover-btn */
+
+.hover-btn{
+    width: 180px;
+    background: rgb(255, 197, 88);
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+
+.hover-btn:hover{
+    background: orange;
+    transition: 1s;
+}
+
 /* .first-windows */
 
 .first-windows{
@@ -151,20 +196,6 @@ main{
     font-weight: 100px;
 }
 
-.second-windows .things .text button{
-    width: 150px;
-    height: 40px;
-    background: rgb(255, 195, 84);
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-}
-
-.second-windows .text button:hover{
-    background-color: orange;
-    transition: 1s;
-}
-
 .second-windows .divs{
     display: flex;
     gap: 20px;
@@ -226,14 +257,6 @@ main{
     height: 300px;
 }
 
-.back-color{
-    width: 120px;
-    display: inline-block;
-    background: orange;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
 .third-windows .text h1{
     font-size: 35px;
     font-family: serif;
@@ -245,20 +268,6 @@ main{
     font-size: 20px;
     color: rgb(65, 65, 65);
     margin-bottom: 15px;
-}
-
-.hover-btn{
-    width: 180px;
-    height: 40px;
-    border: none;
-    font-size: 18px;
-    cursor: pointer;
-    background: rgb(255, 197, 88);
-}
-
-.hover-btn:hover{
-    background: orange;
-    transition: 1s;
 }
 
 .third-windows .divs{
@@ -411,15 +420,20 @@ main{
 }
 
 .sixth-windows .divs .div .box .text{
+    width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
     margin-top: 10px;
 }
 
+.sixth-windows .divs .div .box .text h1{
+    font-size: 30px;
+}
+
 .sixth-windows .divs .div .box .text p{
     align-items: center;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 .sixth-windows .divs .div h3{
@@ -433,6 +447,7 @@ main{
     border: none;
     cursor: pointer;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .sixth-windows .divs .div button:hover{
@@ -442,13 +457,6 @@ main{
 
 .sixth-windows .text{
     width: 400px;
-}
-
-.sixth-windows .text p{
-    width: 150px;
-    height: 30px;
-    font-size: 18px;
-    margin-bottom: 20px;
 }
 
 .sixth-windows .text h1{
@@ -569,17 +577,27 @@ main{
     color: orange;
 }
 
+.eights-windows .divs .div .about p{
+    color: gray;
+}
+
+.eights-windows .divs .div .about p:hover{
+    text-decoration: underline;
+    color: rgb(63, 63, 79);
+}
+
 .eights-windows .divs .div h2{
     display: inline-block;
     margin-top: 20px;
     margin-left: 50px;
     cursor: pointer;
+    color: black;
 }
 
 .eights-windows .divs .div h2:hover{
     color: orangered;
     text-decoration: underline;
-    transition: .5s;
+    transition: .2s;
 }
 
 /* footer */
@@ -625,6 +643,10 @@ footer .left .icons{
     margin-top: 10px;
 }
 
+footer .left .icons a i{
+    color: orange;
+}
+
 footer .left .icons i:hover{
     color: white;    
     cursor: pointer;
@@ -654,6 +676,10 @@ footer .divs .div ul{
     list-style: none;
 }
 
+footer .divs .div ul a{
+    font-size: 20px;
+}
+
 footer .divs .div ul li i{
     color: orange;
 }
@@ -664,6 +690,10 @@ footer .divs .div ul li{
 }
 
 footer .divs .div ul li:hover{
+    text-decoration: underline;
+}
+
+footer .divs .div ul li span:hover{
     text-decoration: underline;
 }
 
