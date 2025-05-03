@@ -5,6 +5,40 @@
     font-family:monospace;
 }
 
+.hovebn{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    background: rgb(255, 184, 52);
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hovebn:hover{
+    background: orange;
+    cursor: pointer;
+}
+
+/* hovebtn */
+
+.hovebtn{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    background: rgb(255, 183, 50);
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.hovebtn:hover{
+    background: orange;
+}
+
 /* a */
 
 a{
