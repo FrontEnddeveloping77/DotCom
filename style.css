@@ -645,12 +645,16 @@ footer .left .icons{
 
 footer .left .icons a i{
     color: orange;
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 footer .left .icons i:hover{
-    color: white;    
+    color: black;    
     cursor: pointer;
     transition: 1s;
+    background: orange;
 }
 
 footer .divs{
