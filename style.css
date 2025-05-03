@@ -709,7 +709,6 @@ footer .left .icons{
     display: flex;
     gap: 20px;
     color: orange;
-    font-size: 30px;
     margin-top: 10px;
 }
 
@@ -718,6 +717,7 @@ footer .left .icons a i{
     border: 1px solid orange;
     padding: 10px;
     border-radius: 50%;
+    font-size: 20px;
 }
 
 footer .left .icons i:hover{
