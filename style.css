@@ -96,6 +96,29 @@ nav ul a:hover{
     color: orange;
 }
 
+.first-windows .elements{
+    display: flex;
+}
+
+.first-windows .divs{
+    width: 70px;
+    height: 260px;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.first-windows .divs .div{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.first-windows .divs .div:nth-child(1){
+    background-color: orange;
+}
+
 .first-windows .text{
     width: 650px;
     height: 400px;
